@@ -4,6 +4,9 @@ Information Retrieval - Final Project - Winter 2017 - Scott Page
 # Introduction
 This project explores 3 different methods of predicting user rankings of jokes based on data provided at http://eigentaste.berkeley.edu/dataset/. (The data folder of the Repo Contains the working copy of jokes and user ratings.) 
 
+# Demo and walk through
+Check out the youtube for a demo run and other conversations on the program. https://youtu.be/6Twmvd9UrLA
+
 # Quick Start
 
 1. Open RStudio

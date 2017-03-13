@@ -1,6 +1,6 @@
+tempDir <- tempdir()
 
 display_joke_and_get_rating <- function(joke_file_name){
-  tempDir <- tempdir()
   dir.create(tempDir)
   htmlFile <- file.path(tempDir, "test.html")
   writeLines(readLines(joke_file_name), htmlFile)
@@ -44,7 +44,7 @@ run_demo <- function(ratings, joke_tif_idf, matrix_fit){
     user_ratings[1,init_joke] <- rating
   }
   
-  print("Preping Personalization")
+  print("Prepping Personalization")
   
   predictions_matrix_fac <- predict_knn_ratings(matrix_fit, user_ratings, k = 5)
   predictions_tfidf_rocchio <- predict_knn_tfidf_rocchio(ratings, user_ratings, joke_tif_idf, k = 1)

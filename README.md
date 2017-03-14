@@ -49,4 +49,4 @@ Finally, many sparse terms were removed from document term matrix.
   Following NNMF, User - Rating KNN performed nearly as well most likely errors were due to sparseness of the training matrix.
   Finally, the User - Rocchio Rating - TFIDF method performed substantially worse than the other two approaches. This is likely a representation that the content of the joke's wasn't a strong indicator of user's preference for / against them.
 
-![Performance](Model Errors.png)
+![Performance](`CSC-575/Model Errors.png`)
